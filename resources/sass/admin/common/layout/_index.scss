@@ -1,0 +1,39 @@
+@import "sticki_header";
+
+/**********/
+/*  Wrap  */
+/**********/
+.wrap{
+    @extend .container
+}
+
+/****************/
+/*  Main Header */
+/****************/
+header.main-header{
+    @extend .container
+}
+
+.header-container{
+    @extend .container
+}
+
+
+/**************/
+/*  Main Menu */
+/**************/
+nav.main-menu{
+    @extend .nav-horizontal;
+}
+
+/*********/
+/*  Main */
+/*********/
+main.main{
+    @extend .container
+}
+
+.main-container{
+    @extend .container;
+
+}

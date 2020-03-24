@@ -1,0 +1,58 @@
+a{
+    color: #a499ab;
+    :active{
+        color: #778ab9;
+    }
+}
+
+p{
+    color: #999999;
+}
+
+/******************/
+/*   breadcrumbs  */
+/******************/
+section{
+    background: #f5f5f5;
+}
+
+.breadcrumb-item + .breadcrumb-item::before{
+    color: #6c757d;
+}
+
+/*******************/
+/*   menu          */
+/*******************/
+.main-menu{
+    ul{
+        :hover{
+            background: #999999;
+        }
+    }
+}
+
+/******************/
+/*      card      */
+/******************/
+.card-body{
+    a{
+        color: #1d2124;
+        :hover{
+            color: #e3342f;
+        }
+    }
+}
+.card-meta{
+    color: #999999;
+}
+
+/***************/
+/*    aside    */
+/***************/
+.nav-aside{
+    a{
+        :hover{
+            color: #e3342f;
+        }
+    }
+}

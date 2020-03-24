@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+
+    &-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.v-flex{
+    @extend .flex;
+    flex-direction: column;
+
+    &-center{
+        @extend .flex-center;
+        flex-direction: column;
+    }
+}
+
+.h-flex{
+    @extend .flex;
+    flex-direction: row;
+
+    &-center{
+        @extend .flex-center;
+        flex-direction: row;
+    }
+}
+
+.middle{
+    @extend .flex-center;
+}
+
+

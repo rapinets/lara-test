@@ -1,0 +1,60 @@
+/*******************/
+/*       body      */
+/*******************/
+body{
+    font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*******************/
+/*     header      */
+/*******************/
+.header-container{
+    text-transform: uppercase;
+}
+.brand{
+    font: 30pt fantasy;
+}
+
+/****************/
+/*     menu     */
+/****************/
+.main-menu{
+    font-size: 14px;
+    //font-weight: bold;
+    line-height: 1.42857143;
+}
+
+
+/******************/
+/*      aside     */
+/******************/
+
+.nav-aside{
+    ul{
+        li{
+            a{
+                span{
+                    font: 100 normal 12px sans-serif;
+                }
+            }
+        }
+    }
+}
+
+
+/************/
+/*  button  */
+/************/
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

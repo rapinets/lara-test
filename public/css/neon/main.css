@@ -1,0 +1,773 @@
+/*****************/
+
+/*    Header     */
+
+/*****************/
+
+.main-header {
+  height: 6rem;
+}
+
+.main-header .header-container {
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+/*****************/
+
+/*     Brand     */
+
+/*****************/
+
+.brand {
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+          flex: 0 1 70%;
+}
+
+.brand > a {
+  display: block;
+}
+
+/*****************/
+
+/*   main-menu   */
+
+/*****************/
+
+.main-menu {
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+          flex: 1 1 30%;
+}
+
+.main-menu ul {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
+.main-menu ul li {
+  padding: 4px;
+}
+
+/****************/
+
+/*  breadcrumb  */
+
+/****************/
+
+.breadcrumb-container {
+  height: 6rem;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.breadcrumb-container > div {
+  margin: 0;
+}
+
+.breadcrumb-container > div > h1 {
+  margin: 0;
+}
+
+section {
+  padding-bottom: 4rem;
+}
+
+section::before {
+  border: 1px;
+}
+
+/******************/
+
+/*     Card      */
+
+/*****************/
+
+.card {
+  padding-bottom: 4rem;
+}
+
+.card::before {
+  border: 1px;
+}
+
+.card-body {
+  -webkit-box-flex: 0;
+          flex: 0 1 70%;
+  padding-top: 0;
+  padding-left: 1rem;
+}
+
+.card-body > h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.card-meta {
+  padding-right: 1rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.card-img {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+/****************/
+
+/*   show-card  */
+
+/****************/
+
+.show-card {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.show-card .show-card-body {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.show-card .show-card-body > p {
+  text-align: justify;
+}
+
+/***************/
+
+/*   Footer    */
+
+/***************/
+
+.footer-container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-container .brand-container {
+  width: 50%;
+}
+
+.footer-container .brand-container .brand {
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-container .brand-container p {
+  display: block;
+}
+
+.aside {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.aside h3,
+.aside li {
+  padding-bottom: 2rem;
+}
+
+.aside h3::before,
+.aside li::before {
+  border: 1px;
+}
+
+@media (min-width: 0) {
+  .main-menu {
+    display: none;
+  }
+
+  .main-container .card {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+
+  .aside {
+    display: none;
+  }
+
+  .footer-container {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 576px) {
+  .main-menu {
+    display: none;
+  }
+
+  .main-container .card {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+
+  .aside {
+    display: none;
+  }
+
+  .footer-container {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-menu {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .main-container .card {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+  }
+
+  .aside {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .footer-container {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-menu {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .main-container .card {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+  }
+
+  .aside {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .footer-container {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-menu {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .main-container .card {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+  }
+
+  .aside {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .footer-container {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+  }
+}
+
+.main {
+  display: -webkit-box;
+  display: flex;
+}
+
+/*******************/
+
+/*       body      */
+
+/*******************/
+
+body {
+  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*******************/
+
+/*     header      */
+
+/*******************/
+
+.header-container {
+  text-transform: uppercase;
+}
+
+.brand {
+  font: 30pt fantasy;
+}
+
+/****************/
+
+/*     menu     */
+
+/****************/
+
+.main-menu {
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+/****************/
+
+/* breadcrumbs  */
+
+/****************/
+
+.breadcrumb {
+  font: bold 12px sans-serif;
+}
+
+/***************/
+
+/*     card    */
+
+/***************/
+
+.meta-info {
+  padding-right: 1rem;
+  font: 100 normal 12px sans-serif;
+}
+
+/******************/
+
+/*      aside     */
+
+/******************/
+
+.nav-aside ul li a span {
+  font: 100 normal 12px sans-serif;
+}
+
+/*****************/
+
+/*   footer      */
+
+/*****************/
+
+.main-footer p {
+  font: 100 normal 12px sans-serif;
+}
+
+a {
+  color: #a499ab;
+}
+
+a :active {
+  color: #778ab9;
+}
+
+p {
+  color: #999999;
+}
+
+/******************/
+
+/*   breadcrumbs  */
+
+/******************/
+
+section {
+  background: #f5f5f5;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #6c757d;
+}
+
+/*******************/
+
+/*   menu          */
+
+/*******************/
+
+.main-menu ul :hover {
+  background: #999999;
+}
+
+/******************/
+
+/*      card      */
+
+/******************/
+
+.card-body a {
+  color: #1d2124;
+}
+
+.card-body a :hover {
+  color: #e3342f;
+}
+
+.card-meta {
+  color: #999999;
+}
+
+/***************/
+
+/*    aside    */
+
+/***************/
+
+.nav-aside a :hover {
+  color: #e3342f;
+}
+
+.flex,
+.h-flex,
+aside-horizontal,
+.aside-horizontal,
+.card-horizontal,
+.card,
+.nav-horizontal > ul,
+nav.main-menu > ul,
+.v-flex,
+aside-vertical,
+.aside-vertical,
+.card-vertical,
+.nav-verical > ul,
+#app {
+  display: -webkit-box;
+  display: flex;
+}
+
+.flex-center,
+.middle,
+.h-flex-center,
+.v-flex-center {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.v-flex,
+aside-vertical,
+.aside-vertical,
+.card-vertical,
+.nav-verical > ul,
+#app {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.v-flex-center {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.h-flex,
+aside-horizontal,
+.aside-horizontal,
+.card-horizontal,
+.card,
+.nav-horizontal > ul,
+nav.main-menu > ul {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+
+.h-flex-center {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+
+.container,
+.breadcrumb-container,
+.footer-container,
+.main-container,
+main.main,
+.header-container {
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transition: max-width 75ms;
+  transition: max-width 75ms;
+}
+
+.container,
+.breadcrumb-container,
+.footer-container,
+.main-container,
+main.main,
+.header-container {
+  max-width: -2rem;
+}
+
+@media (min-width: 36rem) {
+  .container,
+  .breadcrumb-container,
+  .footer-container,
+  .main-container,
+  main.main,
+  .header-container {
+    max-width: 34rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  .container,
+  .breadcrumb-container,
+  .footer-container,
+  .main-container,
+  main.main,
+  .header-container {
+    max-width: 46rem;
+  }
+}
+
+@media (min-width: 62rem) {
+  .container,
+  .breadcrumb-container,
+  .footer-container,
+  .main-container,
+  main.main,
+  .header-container {
+    max-width: 60rem;
+  }
+}
+
+@media (min-width: 75rem) {
+  .container,
+  .breadcrumb-container,
+  .footer-container,
+  .main-container,
+  main.main,
+  .header-container {
+    max-width: 73rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+aside {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/******************/
+
+/*  Sticky Footer */
+
+/******************/
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+#app > header.main-header,
+#app > footer.main-footer {
+  -webkit-box-flex: 0;
+          flex: 0 0 auto;
+}
+
+#app > main.main {
+  -webkit-box-flex: 1;
+          flex: 1 0 auto;
+}
+
+/****************/
+
+/*  Main Header */
+
+/****************/
+
+/**************/
+
+/*  Main Menu */
+
+/**************/
+
+/*********/
+
+/*  Main */
+
+/*********/
+
+/****************/
+
+/*  Main Footer */
+
+/****************/
+
+/*******************/
+
+/*     Card        */
+
+/*******************/
+
+/****************/
+
+/*  Breadcrumbs */
+
+/***************/
+
+nav ul,
+.nav ul,
+.nav-aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a,
+.nav ul li a,
+.nav-aside ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card {
+  margin: 0;
+}
+
+.breadcrumb {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0.5rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  content: "/";
+}
+

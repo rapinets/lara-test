@@ -1,0 +1,9 @@
+.card{
+    margin: 0;
+    &-horizontal{
+        @extend .h-flex;
+    }
+    &-vertical{
+        @extend .v-flex;
+    }
+}

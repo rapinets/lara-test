@@ -1,0 +1,19 @@
+/***************/
+/*   Footer    */
+/***************/
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    .brand-container{
+        width: 50%;
+        .brand{
+            height: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            display: block;
+        }
+    }
+}

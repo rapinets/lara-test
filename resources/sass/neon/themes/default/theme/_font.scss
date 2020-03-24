@@ -1,0 +1,66 @@
+/*******************/
+/*       body      */
+/*******************/
+body{
+    font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*******************/
+/*     header      */
+/*******************/
+.header-container{
+    text-transform: uppercase;
+}
+.brand{
+    font: 30pt fantasy;
+}
+
+/****************/
+/*     menu     */
+/****************/
+.main-menu{
+    font-size: 14px;
+    //font-weight: bold;
+    line-height: 1.42857143;
+}
+
+/****************/
+/* breadcrumbs  */
+/****************/
+.breadcrumb{
+    font: bold 12px sans-serif;
+}
+
+/***************/
+/*     card    */
+/***************/
+
+.meta-info{
+    padding-right: 1rem;
+    font: 100 normal 12px sans-serif;
+}
+
+/******************/
+/*      aside     */
+/******************/
+
+.nav-aside{
+    ul{
+        li{
+            a{
+                span{
+                    font: 100 normal 12px sans-serif;
+                }
+            }
+        }
+    }
+}
+
+/*****************/
+/*   footer      */
+/*****************/
+.main-footer{
+    p{
+        font: 100 normal 12px sans-serif;
+    }
+}

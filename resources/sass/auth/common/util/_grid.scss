@@ -1,0 +1,45 @@
+@function c-width($name, $breakpoints: $grid-breakpoints, $offset: $container-offset){
+    @return map_get($breakpoints, $name) - $offset;
+}
+
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    transition: max-width 75ms;
+}
+
+@include media-min(xs){
+    .container{
+        max-width: c-width(xs);
+    }
+
+}
+
+@include media-min(sm){
+    .container{
+    }
+    .container{
+        max-width: c-width(sm);
+    }
+
+}
+
+@include media-min(md){
+    .container{
+        max-width: c-width(md);
+    }
+
+}
+
+@include media-min(lg){
+    .container{
+        max-width: c-width(lg);
+    }
+}
+
+@include media-min(xl){
+    .container{
+        max-width: c-width(xl);
+    }
+}

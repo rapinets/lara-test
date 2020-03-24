@@ -1,0 +1,62 @@
+@import "sticky_footer";
+
+/****************/
+/*  Main Header */
+/****************/
+header.main-header{
+
+}
+
+.header-container{
+    @extend .container
+}
+
+/**************/
+/*  Main Menu */
+/**************/
+nav.main-menu{
+    @extend .nav-horizontal;
+}
+
+/*********/
+/*  Main */
+/*********/
+main.main{
+    @extend .container
+}
+
+.main-container{
+    @extend .container;
+
+}
+
+/****************/
+/*  Main Footer */
+/****************/
+main.main-footer{
+
+}
+
+.footer-container{
+    @extend .container
+}
+
+/*******************/
+/*     Card        */
+/*******************/
+.card{
+    @extend .card-horizontal;
+}
+
+/****************/
+/*  Breadcrumbs */
+/***************/
+.breadcrumb{
+
+}
+
+.breadcrumb-container{
+    @extend .container;
+}
+
+

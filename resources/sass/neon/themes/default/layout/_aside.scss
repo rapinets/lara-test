@@ -1,0 +1,10 @@
+.aside{
+    display: flex;
+    flex-direction: column;
+    h3, li{
+        padding-bottom: 2rem;
+        &::before{
+            border: 1px;
+        }
+    }
+}

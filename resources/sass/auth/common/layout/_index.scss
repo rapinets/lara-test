@@ -1,0 +1,37 @@
+
+
+/****************/
+/*  Main Header */
+/****************/
+header.main-header{
+
+}
+
+.header-container{
+    @extend .container
+}
+
+/**************/
+/*  Main Menu */
+/**************/
+nav.main-menu{
+    @extend .nav-horizontal;
+}
+
+/*********/
+/*  Main */
+/*********/
+main.main{
+    @extend .container
+}
+
+.main-container{
+    @extend .container;
+
+}
+
+
+
+
+
+

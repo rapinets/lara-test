@@ -1,0 +1,25 @@
+/****************/
+/*  breadcrumb  */
+/****************/
+
+.breadcrumb-container{
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    &>div{
+        margin: 0;
+        &>h1{
+            margin: 0;
+        }
+    }
+}
+
+section{
+    padding-bottom: 4rem;
+    &::before{
+        border: 1px;
+    }
+}

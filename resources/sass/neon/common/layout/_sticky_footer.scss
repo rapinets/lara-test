@@ -1,0 +1,19 @@
+/******************/
+/*  Sticky Footer */
+/******************/
+
+html, body, #app {
+    height: 100%;
+}
+
+#app{
+    @extend .v-flex;
+
+    &>header.main-header, &>footer.main-footer {
+        flex: 0 0 auto;
+    }
+
+    &>main.main {
+        flex: 1 0 auto;
+    }
+}

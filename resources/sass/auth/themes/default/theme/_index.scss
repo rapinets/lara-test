@@ -1,0 +1,113 @@
+
+/*******************/
+/*       body      */
+/*******************/
+body{
+    font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*******************/
+/*     header      */
+/*******************/
+.header-container{
+    text-transform: uppercase;
+}
+.brand{
+    font: 30pt fantasy;
+}
+
+/****************/
+/*     menu     */
+/****************/
+.main-menu{
+    font-size: 14px;
+    //font-weight: bold;
+    line-height: 1.42857143;
+    ul{
+        :hover{
+            background: #999999;
+        }
+    }
+}
+
+/***************/
+/*    card     */
+/***************/
+
+.card{
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.card-header{
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/**************/
+/*    form    */
+/**************/
+
+.label{
+    font-size: inherit;
+    line-height: 1.6;
+    text-align: right;
+}
+
+.input{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.check-wrap{
+    .check{
+        .check-input{
+            color: #6c757d;
+        }
+        .check-label{
+            @extend .check-input;
+        }
+    }
+}
+
+/************/
+/*  button  */
+/************/
+.btn-wrap{
+    .btn{
+        font-weight: 400;
+        color: #212529;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 1px solid #2176bd;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        border-radius: 0.25rem;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        background-color: #227dc7;
+        a{
+            font-weight: 400;
+            color: #3490dc;
+        }
+    }
+}
+
+/*************/
+/*   alert   */
+/*************/
+
+.alert{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}

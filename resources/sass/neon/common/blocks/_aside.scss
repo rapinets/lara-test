@@ -1,0 +1,12 @@
+aside, .aside{
+    &-horizontal{
+        @extend .h-flex;
+    }
+    &-vertical{
+        @extend .v-flex;
+    }
+}
+
+.nav-aside{
+    @extend .nav;
+}

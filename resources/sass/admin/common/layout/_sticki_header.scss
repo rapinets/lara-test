@@ -1,0 +1,19 @@
+/******************/
+/*  Sticky header */
+/******************/
+
+html, body, #app {
+    height: 100%;
+}
+
+#app, .wrap{
+    @extend .v-flex;
+
+    &>header.main-header {
+        flex: 0 0 auto;
+    }
+
+    &>main.main {
+        flex: 1 0 auto;
+    }
+}

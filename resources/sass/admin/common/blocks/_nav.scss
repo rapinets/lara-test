@@ -1,0 +1,29 @@
+nav, .nav{
+    ul{
+
+        margin: 0;
+        padding: 0;
+        li{
+            a{
+                color: inherit;
+
+                span{
+
+                }
+            }
+        }
+    }
+}
+
+.nav{
+    &-horizontal{
+        &>ul{
+            @extend .h-flex;
+        }
+    }
+    &-verical{
+        &>ul{
+            @extend .v-flex;
+        }
+    }
+}
